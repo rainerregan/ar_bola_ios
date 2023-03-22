@@ -6,27 +6,22 @@
 //
 
 import SwiftUI
-import RealityKit
 
 struct ContentView: View {
     var body: some View {
-        ARViewContainer().edgesIgnoringSafeArea(.all)
-    }
-}
-
-struct ARViewContainer: UIViewRepresentable {
-    func makeUIView(context: Context) -> some UIView {
-        let arView = ARView(frame: .zero)
-        
-        let fieldAnchor = try! Experience.loadField()
-        
-        arView.scene.anchors.append(fieldAnchor)
-        
-        return arView
-    }
-    
-    func updateUIView(_ uiView: UIViewType, context: Context) {
-        //not used
+        NavigationView {
+            VStack {
+                Text("AR Bola")
+                    .font(.title)
+                NavigationLink(destination: ARCameraView()) {
+                    Text("Buka AR")
+                        .frame(width: 200, height: 50)
+                        .background(Color.orange)
+                        .foregroundColor(Color.white)
+                        .cornerRadius(10)
+                }
+            }
+        }
     }
 }
 
