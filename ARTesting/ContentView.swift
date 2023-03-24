@@ -7,21 +7,36 @@
 
 import SwiftUI
 
+enum GameplayType{
+    case soccer
+    case bowling
+}
+
 struct ContentView: View {
     var body: some View {
         NavigationView {
             ZStack{
                 VStack {
-                    Text("AR Bola")
+                    Text("AR Olympics")
                         .font(.title)
                         .foregroundColor(.black)
-                    NavigationLink(destination: ARCameraView()) {
-                        Text("Buka AR")
-                            .frame(width: 200, height: 50)
-                            .background(Color.orange)
-                            .foregroundColor(Color.white)
-                            .cornerRadius(10)
+                    HStack {
+                        NavigationLink(destination: ARCameraView(type: .bowling)) {
+                            Text("Bowling")
+                                .padding(20)
+                                .background(Color.orange)
+                                .foregroundColor(Color.white)
+                                .cornerRadius(10)
+                        }
+                        NavigationLink(destination: ARCameraView(type: .soccer)) {
+                            Text("Bola")
+                                .padding(20)
+                                .background(Color.orange)
+                                .foregroundColor(Color.white)
+                                .cornerRadius(10)
+                        }
                     }
+                    
                 }
             }
             .background(

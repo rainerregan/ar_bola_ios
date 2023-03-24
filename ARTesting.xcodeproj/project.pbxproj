@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8331246329CDA5E40094A879 /* RealityDump.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8331246229CDA5E40094A879 /* RealityDump.swift */; };
 		8392F46D29CB3E6000F4D636 /* ARCameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8392F46C29CB3E6000F4D636 /* ARCameraView.swift */; };
 		D028280129C8C8300027E086 /* ARTestingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D028280029C8C8300027E086 /* ARTestingApp.swift */; };
 		D028280329C8C8300027E086 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D028280229C8C8300027E086 /* ContentView.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8331246229CDA5E40094A879 /* RealityDump.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealityDump.swift; sourceTree = "<group>"; };
 		8392F46C29CB3E6000F4D636 /* ARCameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARCameraView.swift; sourceTree = "<group>"; };
 		D02827FD29C8C8300027E086 /* ARTesting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARTesting.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D028280029C8C8300027E086 /* ARTestingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARTestingApp.swift; sourceTree = "<group>"; };
@@ -61,6 +63,7 @@
 				D028280E29C8CA2A0027E086 /* Experience.rcproject */,
 				D028280429C8C8310027E086 /* Assets.xcassets */,
 				D028280629C8C8310027E086 /* Preview Content */,
+				8331246229CDA5E40094A879 /* RealityDump.swift */,
 			);
 			path = ARTesting;
 			sourceTree = "<group>";
@@ -145,6 +148,7 @@
 			files = (
 				8392F46D29CB3E6000F4D636 /* ARCameraView.swift in Sources */,
 				D028280329C8C8300027E086 /* ContentView.swift in Sources */,
+				8331246329CDA5E40094A879 /* RealityDump.swift in Sources */,
 				D028280129C8C8300027E086 /* ARTestingApp.swift in Sources */,
 				D028280F29C8CA2A0027E086 /* Experience.rcproject in Sources */,
 			);
