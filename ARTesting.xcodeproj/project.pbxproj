@@ -279,7 +279,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ARTesting/Preview Content\"";
-				DEVELOPMENT_TEAM = 8B7DH7AN2U;
+				DEVELOPMENT_TEAM = ZKP7U4QRRG;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSCameraUsageDescription = "Our app needs access to your camera to enabled the augmented reality experience";
@@ -293,7 +293,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.regan.ARTesting;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nukivenoza.ARTesting;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -309,7 +309,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ARTesting/Preview Content\"";
-				DEVELOPMENT_TEAM = 8B7DH7AN2U;
+				DEVELOPMENT_TEAM = ZKP7U4QRRG;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSCameraUsageDescription = "Our app needs access to your camera to enabled the augmented reality experience";
@@ -323,7 +323,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.regan.ARTesting;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nukivenoza.ARTesting;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
