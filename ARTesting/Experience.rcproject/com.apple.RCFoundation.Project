@@ -986,7 +986,7 @@
                           "height",
                           {
                             "typeName" : "Double",
-                            "value" : 0.0019999999999999905
+                            "value" : 0.0019999999999999914
                           }
                         ],
                         [
@@ -1385,6 +1385,13 @@
                           {
                             "typeName" : "UUID",
                             "value" : "B1B3D6FB-B774-48C5-A010-7F70CD893ECA"
+                          }
+                        ],
+                        [
+                          "entityName",
+                          {
+                            "typeName" : "String",
+                            "value" : "soccerBall"
                           }
                         ],
                         [
@@ -3225,6 +3232,13 @@
                           }
                         ],
                         [
+                          "entityName",
+                          {
+                            "typeName" : "String",
+                            "value" : ""
+                          }
+                        ],
+                        [
                           "rigidBody-enabled",
                           {
                             "typeName" : "Bool",
@@ -4848,7 +4862,7 @@
                 ]
               },
               "physicsMode" : "grid",
-              "title" : "Scene",
+              "title" : "Bowling",
               "viewTransform" : {
                 "cameraTransform" : [
                   0.99958783388137817,
